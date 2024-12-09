@@ -1,0 +1,53 @@
+.error .inner-tx {
+   width: 60%;
+   text-align: center;
+   margin: 0 auto 30px auto;
+}
+.error .inner-tx h2{
+    font-size: 16vw;
+    color: #061673;
+    font-weight: 600;
+    font-family: 'FontAwesome';
+}
+.error .inner-tx span {
+    background-image: url('../../assets/error.gif');
+   background-size: cover;
+    display: inline-block;
+    margin: 0 10px;
+    height: 180px;
+    width: 180px;
+}
+@media (max-width: 767px){
+    .error .inner-tx span {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media (min-width: 768px) and (max-width:1039px){
+    .error .inner-tx span {
+        width: 120px;
+        height: 120px;
+    }
+}
+@media (min-width: 2560px) {
+    .error .inner-tx h2 {
+       font-size: 10vw;
+    }
+}
+.error .inner-tx h5{
+    color: #111195;
+    font-size: 3vw;
+    font-weight: 700;
+}
+.error .inner-tx p {
+    color: #7a7676;
+    font-weight: bold;
+}
+.error .inner-tx button {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}

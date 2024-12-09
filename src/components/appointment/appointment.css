@@ -1,0 +1,102 @@
+.appointment .row{
+    position: relative;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 40px 12px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+@media (max-width:424px){
+    .appointment .row{
+        width: 250px;
+    }
+}
+@media (min-width:425px) and (max-width:767px){
+    .appointment .row{
+        width: 370px;
+    }
+}
+@media (min-width:768px){
+    .appointment .row{
+        width: 400px;
+    }
+}
+.appointment .row::before{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left: 16px;
+    top: 20px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.appointment .form-container{
+    position: relative;
+    left: 20px;
+    box-shadow: 3px 1px 10px 1px;
+    background-color: white;
+    padding: 40px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.appointment h2{
+    text-align: center;
+    color: rgb(8, 8, 99);
+    margin: 30px 0;
+    font-weight: bold;
+}
+.appointment .form-group select,
+.appointment .form-group input {
+    width: 90%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.appointment .form-group select,
+.appointment .form-group input[type="number"]::-webkit-outer-spin-button,
+.appointment .form-group input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.appointment .form-group select:hover,
+.appointment .form-group input:hover{
+    border-color: var(--main-color);
+}
+.appointment .form-group{
+    display: flex;
+    justify-content: center;
+}
+.appointment form button{
+    position: relative;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+@media (max-width:424px){
+    .appointment form button{
+        font-size: 14px;
+    }
+}

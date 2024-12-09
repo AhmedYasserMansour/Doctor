@@ -1,0 +1,12 @@
+.up {
+    position: fixed;
+    display: none;
+    z-index: 1000;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    padding: 4px 14px;
+    font-size: 25px;
+  }

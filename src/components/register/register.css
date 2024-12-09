@@ -1,0 +1,57 @@
+.register {
+    min-width: 300px;
+    max-width: 450px;
+    margin: 30px auto;
+}
+.register > div {
+    width: 90%;
+    margin: auto;
+}
+
+.register .image {
+    margin-bottom: 30px;
+}
+.register ul {
+    padding: 0;
+}
+.register ul li {
+    margin-bottom: 15px;
+}
+.register ul li input {
+    border: 2px solid #eee;
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.register ul li input:hover, 
+.register ul li input:focus {
+    border-color: var(--main-color);
+}
+.register ul li .register-btn {
+    background-color: var(--main-color);
+    width: 100%;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 600;
+}
+.register p {
+    text-align: center;
+    font-weight: 600;
+}
+.register .login-btn {
+    background-color: var(--or-color);
+    width: 100%;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}

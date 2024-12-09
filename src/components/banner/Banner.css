@@ -1,0 +1,100 @@
+.banner {
+    background-image: linear-gradient(50deg, #0dcaf094, #0a58ca6b, #75b798b8, #0dcaf07d);
+}
+.banner .container{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner h2 {
+    color: #2e2e9d;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+@media (min-width: 768px) {
+    .banner h2 {
+        font-size: 60px;
+    }
+}
+.banner .transition {
+    display: flex;
+    margin: 20px 0;
+    background-color: var(--main-color);
+    padding: 8px 15px;
+    font-weight: 500;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.banner .transition li .slash{
+    color: #999bcb;
+    margin: 0 10px;
+}
+.banner .transition li i{
+color: white;
+margin-right: 10px;
+}
+.banner .transition li span{
+color: white;
+}
+.banner .container{
+    position: relative;
+}
+.banner img:nth-of-type(1) {
+    position: absolute;
+    width: 70px;
+    left: 5%;
+    top: 5%;
+    animation: circleblue 1s infinite alternate ease-in-out;
+    -webkit-animation: circleblue 1s infinite alternate ease-in-out;
+}
+@keyframes circleblue {
+    0%{
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+    100% {
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+}
+}
+.banner img:last-child {
+    position: absolute;
+    width: 70px;
+    right: 5%;
+    bottom: 5%;
+    animation: plusblue linear 5s infinite;
+    -webkit-animation: plusblue linear 5s infinite;
+}
+@keyframes plusblue {
+    0%{
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+}
+100%{
+    transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+}
+}
+@media (max-width:767px){
+    .banner img:nth-of-type(1),
+    .banner img:last-child {
+        display: none;
+    }
+}

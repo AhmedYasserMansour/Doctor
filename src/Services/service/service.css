@@ -1,0 +1,206 @@
+.raper{
+    background-color: #EDEDF9;
+    margin: 60px 0;
+    padding: 80px 0;
+}
+.raper .row {
+    row-gap: 25px;
+}
+.raper .box {
+    position: relative;
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+    border: 2px solid var(--main-color);
+}
+
+.raper .box::before {
+    background-color: white;
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: -1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.raper .box:hover:before {
+    background-color: var(--main-color);
+}
+
+.raper .box h2 {
+    color: var(--or-color);
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.raper .box:hover h2 {
+    color: white;
+}
+.raper .box h5 {
+    color: #080857;
+    font-weight: 700;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.raper .box:hover h5 {
+    color: white;
+}
+.raper .box p {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.raper .box:hover p {
+    color: white;
+}
+.service .doctors .row {
+    justify-content: center;
+    gap: 25px;
+    margin: 40px 0;
+}
+.service .row .summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.service .row .summary:hover {
+    border: none;
+    box-shadow: 0px 0px 10px 1px;
+}
+@media (min-width:1024px) {
+    .service .row .summary:hover
+    {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+}
+
+.service .row .summary h4 {
+    text-align: center;
+    color: rgba(33, 33, 196, 0.808);
+    font-size: 20px;
+}
+.service .row .summary span{
+    color: var(--or-color);
+    font-weight: 700;
+}
+@media (min-width:768px) and (max-width:1023px){
+    .service .row .summary{
+        margin:0 20px 20px 0 ;
+    }
+}
+.service .summary img {
+   width: 120px;
+   border-radius: 30%;
+   -webkit-border-radius: 30%;
+   -moz-border-radius: 30%;
+   -ms-border-radius: 30%;
+   -o-border-radius: 30%;
+}
+.service .summary .image {
+    position: relative;
+    padding: 30px;
+}
+.service .summary .image::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 2px solid #565acf61;
+    height: 100%;
+    width: 100%;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.service .summary:hover .image::before {
+    border-color: var(--main-color);
+}
+.service .summary div::after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border: 2px solid #f1773263;
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.service .summary:hover .image::after {
+    border-color: var(--or-color);
+}
+.service .row .summary ul {
+    display: flex;
+    padding: 0;
+    margin: 20px 0;
+}
+.service .row .summary ul li:nth-child(2) {
+    margin: 0 15px;
+}
+.service .row .summary ul li{
+    background-color: var(--main-color);
+    padding: 6px 12px;
+    font-size: 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.service .row .summary ul li i{
+    color: white;
+}
+.service .row .summary ul li:hover{
+    background-color: var(--or-color);
+}

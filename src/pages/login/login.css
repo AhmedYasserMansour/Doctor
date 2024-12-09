@@ -1,0 +1,62 @@
+.login {
+    min-width: 300px;
+    max-width: 450px;
+    margin: 50px auto;
+}
+.login > div {
+    width: 90%;
+    margin: auto;
+}
+
+.login .image {
+    margin-bottom: 30px;
+}
+.login ul {
+    padding: 0;
+}
+.login ul li {
+    margin-bottom: 15px;
+}
+.login ul li input {
+    border: 2px solid #eee;
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.login ul li input:hover, 
+.login ul li input:focus {
+    border-color: var(--main-color);
+}
+.login ul li .login-btn {
+    background-color: var(--main-color);
+    width: 100%;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 600;
+}
+.login .forgot {
+    margin: 20px 0 40px;
+    color: blue;
+    text-align: center;
+}
+.login p {
+    text-align: center;
+    font-weight: 600;
+}
+.login .register-btn {
+    background-color: var(--or-color);
+    width: 100%;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}

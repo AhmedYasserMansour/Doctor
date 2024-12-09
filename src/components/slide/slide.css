@@ -1,0 +1,100 @@
+.slide .box{
+    text-align: left;
+    padding: 20px 40px;
+    outline: none;
+    border-radius: 10px;
+    width: 90%!important;
+    background-color: white;
+    box-shadow: 0px 0 5px 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.slide .box .slide-icon{
+    margin: 20px 0;
+    border: 2px solid #d1cbcb;
+    width: 70%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.slide .box:hover .slide-icon{
+border-color: var(--main-color);
+}
+.slide .box .slide-icon i{
+    font-size: 50px;
+    color: #397cdf;
+    margin: 20px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.slide .box:hover .slide-icon i{
+    animation: animate 0.1s 2 ease-in-out;
+    -webkit-animation: animate 0.1s 2 ease-in-out;
+}
+
+@keyframes animate {
+    0%{
+        left: 0;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
+    100%{
+        transform: translateX(5px);
+        -webkit-transform: translateX(5px);
+        -moz-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+        -o-transform: translateX(5px);
+}
+}
+.slide .box h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #1b1b7f;
+}
+.slide .box p{
+    color: #5a5757;
+    font-weight: 600;
+}
+.slide .slick-dots li button:before{
+    font-size: 10px;
+}
+.slide .slick-list{
+    padding: 30px 0;
+    margin: 50px 0;
+}
+
+.slide .box .more{
+    background-color: #c3c4f5d8;
+    color: var(--main-color);
+    padding: 10px 20px;
+    font-weight: 700;
+    margin-bottom:20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.slide .box:hover .more{
+    background-color: var(--main-color);
+    color: white;
+}
+
+  
