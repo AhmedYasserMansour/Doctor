@@ -121,8 +121,8 @@ const Contact = _ => {
                             </h5>
                             <ul className='mb-0'>
                                 <li><Link to="https://x.com/" target='blank'><i className="fa-brands fa-x-twitter"></i></Link></li>
-                                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
-                                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
+                                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
+                                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
                             </ul> 
                         </div>
                         </div>

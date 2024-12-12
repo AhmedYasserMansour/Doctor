@@ -25,8 +25,8 @@ const OurTeam = _ => {
                 <span>Dentist</span>
                 <ul>
                 <li><Link to="https://x.com/" target='blank'><i className="fa-brands fa-x-twitter"></i></Link></li>
-                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
-                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
+                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
+                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
                 </ul>
             </div>
            <div className="summary col-lg-3 col-md-5">
@@ -37,8 +37,8 @@ const OurTeam = _ => {
                 <span>Chiropractor</span>
                 <ul>
                 <li><Link to="https://x.com/" target='blank'><i className="fa-brands fa-x-twitter"></i></Link></li>
-                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
-                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
+                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
+                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
                 </ul>
             </div>
             <div className="summary col-lg-3 col-md-5">
@@ -49,8 +49,8 @@ const OurTeam = _ => {
                 <span>Cardiologist</span>
                 <ul>
                 <li><Link to="https://x.com/" target='blank'><i className="fa-brands fa-x-twitter"></i></Link></li>
-                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
-                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
+                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
+                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
                 </ul>
             </div>
            <div className="summary col-lg-3 col-md-5">
@@ -61,8 +61,8 @@ const OurTeam = _ => {
                 <span>Cardiologist</span>
                 <ul>
                 <li><Link to="https://x.com/" target='blank'><i className="fa-brands fa-x-twitter"></i></Link></li>
-                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
-                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
+                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
+                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
                 </ul>
             </div>
             <div className="summary col-lg-3 col-md-5">
@@ -73,8 +73,8 @@ const OurTeam = _ => {
                 <span>Cardiologist</span>
                 <ul>
                 <li><Link to="https://x.com/" target='blank'><i className="fa-brands fa-x-twitter"></i></Link></li>
-                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
-                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
+                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
+                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
                 </ul>
             </div>
             <div className="summary col-lg-3 col-md-5">
@@ -85,8 +85,8 @@ const OurTeam = _ => {
                 <span>Cardiologist</span>
                 <ul>
                 <li><Link to="https://x.com/" target='blank'><i className="fa-brands fa-x-twitter"></i></Link></li>
-                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
-                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
+                <li><Link to="https://www.linkedin.com/feed/" target='blank'><i className="fa-brands fa-linkedin"></i></Link></li>
+                <li><Link to="https://www.instagram.com/" target='blank'><i className="fa-brands fa-instagram"></i></Link></li>
                 </ul>
             </div>
            </div>
